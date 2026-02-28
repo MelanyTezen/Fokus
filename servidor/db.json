@@ -1,0 +1,14 @@
+{
+  "tareas": [
+    {
+      "id": 1772233521844,
+      "texto": "beber agua",
+      "completada": true
+    },
+    {
+      "id": 1772233883854,
+      "texto": "terminar proyecto react y node.js",
+      "completada": false
+    }
+  ]
+}

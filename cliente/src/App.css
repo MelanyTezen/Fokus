@@ -1,0 +1,19 @@
+* {  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/*Color en el fondo*/
+body {
+  background-color: #f3e2ff;
+  min-height: 100vh;
+}
+
+/* centra y limita el ancho del contenedor principal */
+.app-container {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 40px 20px;
+} 

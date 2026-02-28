@@ -1,0 +1,117 @@
+.card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 20px 40px rgba(167, 139, 250, 0.2);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #f3e8ff;
+}
+
+.titulo {
+  color: #7c3aed;
+  font-weight: 600;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contador {
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  background: #f3e8ff;
+  color: #7c3aed;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.tarea {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.6);
+  transition: all 0.2s ease;
+}
+
+.tarea:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.texto {
+  flex: 1;
+  color: #7c3aed;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.textoCompletado {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.botonCompletar {
+  width: 24px;
+  height: 24px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: #f3e8ff;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.botonCompletar:hover {
+  background: #e9d5ff;
+}
+
+.completado {
+  background: linear-gradient(to right, #a78bfa, #ec4899);
+}
+
+.botonEliminar {
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  border: none;
+  background: #fce7f3;
+  color: #ec4899;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.2s ease;
+  font-size: 0.875rem;
+}
+
+.tarea:hover .botonEliminar {
+  opacity: 1;
+}
+
+.vacio {
+  text-align: center;
+  padding: 2.5rem 0;
+  color: #c4b5fd;
+}
+
+.vacioemoji {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  display: block;
+}
