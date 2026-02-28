@@ -10,7 +10,7 @@ function App() {
   const [tareas, setTareas] = useState([]);
 
   useEffect(() => {
-    fetch(API)
+    fetch(API) /*get*/
       .then(res => res.json())
       .then(data => setTareas(data));
   }, []);

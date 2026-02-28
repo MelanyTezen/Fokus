@@ -17,7 +17,7 @@ function FormularioTarea({ onAgregarTarea }) {
         <input
           className={styles.input}
           type="text"
-          placeholder="¿qué quieres lograr hoy?"
+          placeholder="¿Qué quieres lograr hoy?"
           value={texto}
           onChange={(e) => setTexto(e.target.value)}
         />
