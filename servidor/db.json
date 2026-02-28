@@ -8,7 +8,12 @@
     {
       "id": 1772233883854,
       "texto": "terminar proyecto react y node.js",
-      "completada": false
+      "completada": true
+    },
+    {
+      "id": 1772257293938,
+      "texto": "hacer oficio",
+      "completada": true
     }
   ]
 }
