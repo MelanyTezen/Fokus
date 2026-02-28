@@ -1,8 +1,6 @@
-# Fokus
+# Fokus 🐱
 
-🐱 Fokus
-
-Fokus es una aplicación web de organización personal, desarrollada con React en el frontend y Node.js en el backend. Permite agregar, completar y eliminar tareas, guardándolas de forma permanente en una base de datos.
+Es una aplicación web de organización personal, desarrollada con React en el frontend y Node.js en el backend. Permite agregar, completar y eliminar tareas, guardándolas de forma permanente en una base de datos.
 
 ## Configuración e instalación por dependencia de fronted y backend:
 1. Fronted
